@@ -1,0 +1,5 @@
+- name: Setup server
+  hosts: localhost
+  tasks:
+    - debug:
+        msg: "Configured"
